@@ -1,0 +1,10 @@
+automerge:
+  enabled: true
+access_control:
+  enabled: true
+  policies:
+    - tag_query: ""
+      plan:
+        - "*"
+      apply:
+        - team:sre
